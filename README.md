@@ -6,7 +6,7 @@ See https://cloud.google.com/storage/docs/migrating
 This API can be installed as standalone or as a ColdBox Module.  Either approach requires a simple CommandBox command:
 
 ```
-box install GoogleClouldStorage
+box install GoogleCloudStorage
 ```
 
 Then follow either the standalone or module instructions below.
