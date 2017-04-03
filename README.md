@@ -1,5 +1,5 @@
 # GoogleCloudStorage
-Implement Google Cloud Storage Rest XML Api
+Implements Google Cloud Storage Rest XML Api for Coldbox Coldfusion
 See https://cloud.google.com/storage/docs/migrating
 
 ## Installation 
