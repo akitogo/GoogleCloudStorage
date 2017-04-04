@@ -1,0 +1,86 @@
+{
+    "name":"GoogleCloudStorage",
+    "version":"0.8.0",
+    "author":"Akitogo Team",
+    "location":"https://github.com/akitogo/GoogleCloudStorage/archive/master.zip",
+    "directory":"",
+    "createPackageDirectory":true,
+    "packageDirectory":"",
+    "homepage":"https://github.com/akitogo/GoogleCloudStorage",
+    "documentation":"",
+    "repository":{
+        "type":"GIT",
+        "URL":"https://github.com/akitogo/GoogleCloudStorage/archive/master.zip"
+    },
+    "bugs":"",
+    "slug":"GoogleCloudStorage",
+    "shortDescription":"Implements Google Cloud Storage Rest XML Api",
+    "description":"",
+    "instructions":"",
+    "changelog":"",
+    "type":"modules",
+    "keywords":"Google,Storage",
+    "private":false,
+    "engines":[
+        {
+            "type":"",
+            "version":""
+        }
+    ],
+    "defaultEngine":"",
+    "defaultPort":0,
+    "projectURL":"",
+    "license":[
+        {
+            "type":"",
+            "URL":""
+        }
+    ],
+    "contributors":[
+        
+    ],
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        
+    },
+    "installPaths":{
+        
+    },
+    "scripts":{
+        
+    },
+    "ignore":[
+        
+    ],
+    "testbox":{
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "labels":[
+            
+        ],
+        "reporter":"",
+        "reporterResults":"",
+        "bundles":[
+            ""
+        ],
+        "directory":{
+            "mapping":"",
+            "recurse":true
+        },
+        "watchers":[
+            
+        ],
+        "notify":{
+            "emails":[
+                
+            ],
+            "growl":"",
+            "URL":""
+        }
+    }
+}

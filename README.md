@@ -13,7 +13,7 @@ Then follow either the standalone or module instructions below.
 
 ### Standalone
 
-This API will be installed into a directory called `GoogleCloudStorage` and then the SDK can be instantiated via ` new s3sdk.AmazonS3()` with the following constructor arguments:
+This API will be installed into a directory called `GoogleCloudStorage` and then the API can be instantiated via ` new GoogleCloudStoreage.models.GoogleStorage()` with the following constructor arguments:
 
 ```
 <cfargument name="accessKey" 			required="true">
@@ -42,5 +42,20 @@ GoogleStorageSettings = {
 Then you can leverage the API CFC via the injection DSL: `GoogleStorage@GoogleCloudStorage`
 
 ## Usage
-
-See https://cloud.google.com/storage/docs/migrating
+```
+component{
+	property name="ggl" inject="GoogleStorage@GoogleCloudStorage";
+	
+	function index(event,rc,prc){
+		
+		// get all buckets
+		var allBuckets=ggl.listBuckets();
+		
+		// store a file in a buckets
+		var uploadedFile=ggl.putObjectFile('akitogo','C:\temp\myfile.jpg');
+		writeDump(allBuckets);
+		writeDump(uploadedFile);
+		abort;
+	}
+}
+```
