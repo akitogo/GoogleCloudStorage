@@ -10,7 +10,7 @@
     "documentation":"",
     "repository":{
         "type":"GIT",
-        "URL":"https://github.com/akitogo/GoogleCloudStorage/archive/master.zip"
+        "URL":"https://github.com/akitogo/GoogleCloudStorage.git"
     },
     "bugs":"",
     "slug":"GoogleCloudStorage",
@@ -32,8 +32,8 @@
     "projectURL":"",
     "license":[
         {
-            "type":"",
-            "URL":""
+            "type":"Apache2",
+            "url":"http://www.apache.org/licenses/LICENSE-2.0.html"
         }
     ],
     "contributors":[
